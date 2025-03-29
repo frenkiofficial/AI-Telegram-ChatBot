@@ -1,0 +1,4 @@
+python-telegram-bot[ext]>=20.0  # For Telegram Bot interactions
+openai>=1.0                     # For OpenAI API
+python-dotenv>=1.0              # To load .env files
+# google-generativeai          # Uncomment if using Gemini
