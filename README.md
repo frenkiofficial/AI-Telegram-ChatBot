@@ -24,14 +24,14 @@ Before you begin, ensure you have the following:
 4.  **AI Provider API Key:**
     *   **OpenAI:** An API key from [OpenAI Platform](https://platform.openai.com/).
     *   **Google Gemini:** An API key from [Google AI Studio](https://aistudio.google.com/app/apikey) or Google Cloud.
-5.  **Git** (Optional): For cloning the repository easily.
+5.  **Git** (Optional but recommended): For cloning the repository easily.
 
 ## ⚙️ Setup and Installation
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <your-repository-url> # Replace <your-repository-url> with the actual URL
-    cd ai-telegram-bot # Or your repository's directory name
+    git clone https://github.com/frenkiofficial/AI-Telegram-ChatBot.git
+    cd AI-Telegram-ChatBot # Navigate into the cloned directory
     ```
     *(Alternatively, download the code as a ZIP file and extract it.)*
 
@@ -53,8 +53,9 @@ Before you begin, ensure you have the following:
 
 ## 🔑 Configuration (.env File)
 
-1.  **Create a `.env` file** in the root directory of the project.
-2.  **Copy and paste** the following content into the `.env` file:
+1.  **Navigate** into the `AI-Telegram-ChatBot` directory if you haven't already.
+2.  **Create a `.env` file** in this directory.
+3.  **Copy and paste** the following content into the `.env` file:
 
     ```env
     # --- Telegram Configuration ---
@@ -76,24 +77,24 @@ Before you begin, ensure you have the following:
     # GEMINI_MODEL="gemini-pro"
     ```
 
-3.  **Replace the placeholder values:**
+4.  **Replace the placeholder values:**
     *   `YOUR_TELEGRAM_BOT_TOKEN_HERE` with your actual bot token from BotFather.
     *   Set `AI_PROVIDER` to either `"openai"` or `"gemini"`.
     *   If using OpenAI: Fill `YOUR_OPENAI_API_KEY_HERE` with your OpenAI key.
     *   If using Gemini: Fill `YOUR_GOOGLE_API_KEY_HERE` with your Google API key.
     *   Adjust `OPENAI_MODEL` or `GEMINI_MODEL` if you want to use a different model version (optional).
 
-4.  **Important Security Note:** Add `.env` to your `.gitignore` file to prevent accidentally committing your secret keys!
+5.  **Important Security Note:** Ensure `.env` is listed in your `.gitignore` file to prevent accidentally committing your secret keys! If a `.gitignore` file doesn't exist, create one and add `.env` to it.
 
 ## ▶️ Running the Bot
 
 1.  Make sure your virtual environment is activated (if you created one).
-2.  Navigate to the project directory in your terminal.
+2.  Ensure you are in the `AI-Telegram-ChatBot` directory in your terminal.
 3.  Run the bot script:
     ```bash
     python bot.py
     ```
-4.  The bot should now be running and connected to Telegram. You'll see log messages in your terminal.
+4.  The bot should now be running and connected to Telegram. You'll see log messages in your terminal confirming it started.
 
 ## 💬 How to Use the Bot
 
