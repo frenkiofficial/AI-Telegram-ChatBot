@@ -2,8 +2,6 @@
 
 A simple yet powerful Telegram bot that allows users to chat directly with an AI (powered by OpenAI or Google Gemini API) within their Telegram application. This repository provides the basic implementation.
 
-![Bot Demo Placeholder](https://via.placeholder.com/600x300.png?text=AI+Telegram+Bot+Interface)
-*(You can replace the placeholder URL above with an actual screenshot or GIF of your bot in action)*
 
 ## ✅ Basic Features (Included in this Repository)
 
